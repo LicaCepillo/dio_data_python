@@ -1,0 +1,522 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOE3QVYERgNAkQ//8K1zYOS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LicaCepillo/dio_data_science/blob/main/primeira_aula_colab_python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4XKUVXtjmQwC",
+        "outputId": "733218da-030a-4c55-b3f5-f33c7542cd85"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá Mundo!\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Olá Mundo!\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"Estou aprendendo Python\""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "3M27lXCnmt-K",
+        "outputId": "5f632bc0-b64b-42ee-c466-55f9a76201fb"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Estou aprendendo Python'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "1+1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UQqmg9D8m58i",
+        "outputId": "337042cc-14ad-4c52-fdea-4d6e67f093c0"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "10-2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V4avRLzom7iN",
+        "outputId": "ec793a53-d78d-49c1-8cc3-ddf4680f07d0"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "8"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Esse e um comentario em Python\n"
+      ],
+      "metadata": {
+        "id": "KOHgQaL5m830"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Multiplicação\n",
+        "2*2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EUHQtp4TnMec",
+        "outputId": "b86968e8-2d68-4d7b-fd56-e806c75c06d6"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Divião\n",
+        "10/2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FxVq55GHnQ1c",
+        "outputId": "06ab29eb-bdca-41fb-fbd5-538cef692dee"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Cria variável\n",
+        "a = 4\n",
+        "b = 6\n"
+      ],
+      "metadata": {
+        "id": "8RuPL9eNnTQt"
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a + b"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1A1hDPsWnfC0",
+        "outputId": "a4893ffa-8b90-4566-99bc-5689f0d7248a"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "10"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Trabalhando com Strings - Criando uma variável do tipo String\n",
+        "frase = \"Python para análise de Dados\""
+      ],
+      "metadata": {
+        "id": "nWMHNM6cni7s"
+      },
+      "execution_count": 10,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase [0]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "dc1X7KLfntqM",
+        "outputId": "34746170-d31f-4a5e-8a58-0dd225e8c2a8"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'P'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase[0:10]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "J70vsB_Gn0y0",
+        "outputId": "273c30ef-2ac2-46f5-f5fa-8fc197064384"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Python par'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase[10:]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "N1iPVenToVYd",
+        "outputId": "51afae8c-fcde-4251-eaac-b57fa453f7a5"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'a análise de Dados'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 13
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase[:17]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "OxH-Pn_6ogw1",
+        "outputId": "14b392f2-4c07-4a90-a1ba-4a77ba580829"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Python para análi'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase.count(\"Dados\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-eIJfbwzokv1",
+        "outputId": "59d1a960-914c-4dd0-e0a7-140310c1b5d6"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "1"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 15
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase.lower"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MYVIRYqsoydN",
+        "outputId": "5b76c157-2314-460a-8344-36dab1f223cf"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "<function str.lower()>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 16
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase.lower()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "1u-ZPmXvo0Uk",
+        "outputId": "92b94286-f1cf-4bd5-b8c2-d5270292e889"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'python para análise de dados'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 17
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase.upper()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "WyODyefho5Us",
+        "outputId": "82fb078c-7eb7-4330-efa3-8b252c9f548d"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'PYTHON PARA ANÁLISE DE DADOS'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase.replace(\"Python\", \"Frases\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "aUJ5PDQco7_c",
+        "outputId": "a0f448c9-8368-4fc4-9d72-03682d28616e"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Frases para análise de Dados'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "MsZ2zG5kpQbN"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
