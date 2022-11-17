@@ -1,7 +1,7 @@
-conta_normal = False
+conta_normal = True
 conta_universitaria = False
 
-saldo = 2000
+saldo = 200
 saque = 1500
 cheque_especial = 450
 
